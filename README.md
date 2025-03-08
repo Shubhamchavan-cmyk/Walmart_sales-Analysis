@@ -45,7 +45,8 @@ Verification: Run initial SQL queries to confirm that the data has been loaded a
 #### 9. SQL Analysis: Complex Queries and Business Problem Solving
 Business Problem-Solving: Write and execute complex SQL queries to answer critical business questions, such as:
 # IDENTIFY 5 BRANCH WITH HIGHEST DECREASE RATIO IN REVENUE COMPARE TO LAST YEAR (CURRENT YEAR 2023 AND LAST YEAR 2022
-``` SELECT 
+```
+SELECT 
     BRANCH,
     SUM(TOTAL) AS REVENUE
 FROM WALMART
